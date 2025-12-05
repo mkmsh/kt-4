@@ -1,0 +1,44 @@
+h1{
+font-family: "Georgia";
+}
+p{
+font-family: "Verdana";
+padding-bottom: 30px;
+}
+header{
+text-align:center;
+background-color:#D4A3C4;
+color:#210635;
+padding: 10px;
+}
+.container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;
+}
+.item {
+background:#F2D6FF;
+padding: 100px;
+text-align: center;
+height: 60px;
+}
+.item:nth-child(1){background:#738FBD;}
+.item:nth-child(2){background:#A8C3D4;}
+.item:nth-child(3){background:#DBD6DF;}
+.item:nth-child(4){background:#EEC6C7;}
+.item:nth-child(5){background:#DB88A4;}
+.item:nth-child(6){background:#CC8EB1;}
+.container2 {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 50px;
+}
+.item2 {
+background:#D4A3C4;
+padding: 30px;
+text-align: center;
+}
+body{
+background:#F1DDE6;
+}
